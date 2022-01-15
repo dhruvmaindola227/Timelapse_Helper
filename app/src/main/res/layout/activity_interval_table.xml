@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/drawerlayoutinterval"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".IntervalTableActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:navigationIcon="@drawable/ic_baseline_dehaze_24"
+            app:title="Interval Table"
+            android:id="@+id/toolbarInterval"
+            app:titleTextColor="#DFBD0A"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#5C5C5C"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Event"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Interval"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Duration"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:fillViewport="true">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Fast moving clouds"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Slow moving clouds"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="10s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sun moving across a clear sky"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20 to 30s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="4 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Moon moving across the sky"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20 to 30s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="4 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Star moving across the sky"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="15 to 60s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="4 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sunrise"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 to 3s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="40min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sunset"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 to 3s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="40min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Moonrise"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 to 3s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="40min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Rainbow"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Thunderstorm (short)"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="30 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Thunderstorm cycle (long)"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="5 s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Fast growing plants"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="10 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="3 days"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Slow growing plants"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20 days"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Red rose blooming"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2 weeks"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sunflower full cycle"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="4 months"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Sunflower blooming"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="30 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="30 days"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Fruit rotting"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="30 to 40min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="70 days"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Shadow moving across the ground"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="10 to 20s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="3 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Crowds of people"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 to 2s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="30 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Traffic"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Busy city over a day's time"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="24 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Car mounted camera"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Ice melting"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="5s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Telephone scenes"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 to 3s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="20 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="A self-portrait as you age over a number of years"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="2 days"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="10 years"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Snail races"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="10 min"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Tidying up your home"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="3 s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="1 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#404040"
+                    android:orientation="horizontal"
+                    android:paddingStart="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Tide"
+                            android:textColor="@color/white"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="15 s"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="6 h"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+                </LinearLayout>
+
+            </TableLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+<com.google.android.material.navigation.NavigationView
+    android:id="@+id/navigationview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:headerLayout="@layout/drawer_header"
+    app:menu="@menu/menu_drawer"
+    android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

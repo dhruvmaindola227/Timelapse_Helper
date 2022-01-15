@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <RelativeLayout
+        android:id="@+id/coordinatorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                app:titleTextColor="#DFBD0A"
+                app:title="Timelapse Helper"
+                android:backgroundTint="#000000"
+                app:navigationIcon="@drawable/ic_baseline_dehaze_24"
+                android:background="@color/black"
+                tools:targetApi="lollipop" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:layout_below="@+id/toolbar">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20sp"
+                        android:id="@+id/txtCalculate"
+                        android:text="Calculate"
+                        android:layout_marginTop="8dp"
+                        android:textColor="@color/black"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtCalculate"
+                        android:layout_marginTop="18dp"
+                        android:text="FPS"
+                        android:id="@+id/txtFps"
+                        android:padding="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="21sp" />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/quest"
+                        android:id="@+id/imgFps"
+                        android:layout_marginStart="20dp"
+                        android:layout_below="@+id/txtFps"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/shootingInterval"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/txtCalculate"
+                        android:hint="Select"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp">
+                        <AutoCompleteTextView
+                            android:id="@+id/autocompleteShootingInterval"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="none"
+                            android:text="Shooting Interval"
+                            tools:ignore="LabelFor" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/fpsDropDown"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/shootingInterval"
+                        android:layout_toEndOf="@+id/txtCalculate"
+                        android:hint="Select"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp">
+                        <AutoCompleteTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="none"
+                            android:id="@+id/autoCompleteFps"
+                            tools:ignore="LabelFor" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/txtClipLength"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgFps"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:hint="Clip Length (in seconds)">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/editClipLength"
+                            android:inputType="number"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/quest"
+                        android:id="@+id/imgClipLength"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/txtClipLength"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/txtEventDuration"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgClipLength"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:hint="Event Duration">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:enabled="false"
+                            android:id="@+id/editEventDuration"
+                            android:inputType="number"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/quest"
+                        android:id="@+id/imgEvtDur"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/txtEventDuration"/>
+
+                    <NumberPicker
+                        android:layout_width="70dp"
+                        android:id="@+id/numberPickerHr"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="8dp"
+                        android:tooltipText="hello"
+                        android:descendantFocusability="blocksDescendants"
+                        app:icon="@drawable/ic_baseline_timer_24"
+                        android:layout_toEndOf="@+id/txtEventDuration"
+                        android:layout_below="@id/imgClipLength"/>
+
+                    <NumberPicker
+                        android:layout_width="70dp"
+                        android:tooltipText="Hello"
+                        android:id="@+id/numberPickerMin"
+                        android:layout_height="60dp"
+                        android:descendantFocusability="blocksDescendants"
+                        android:layout_marginTop="8dp"
+                        app:icon="@drawable/ic_baseline_timer_24"
+                        android:layout_toEndOf="@+id/numberPickerHr"
+                        android:layout_marginStart="20dp"
+                        android:layout_below="@id/imgClipLength"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgEvtDur"
+                        android:id="@+id/txtNoOfPhotos"
+                        android:padding="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="21sp"
+                        android:layout_marginTop="10dp"
+                        android:text="No. of Photos"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imgEvtDur"
+                        android:id="@+id/noOfPhotos"
+                        android:padding="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="21sp"
+                        android:layout_marginTop="10dp"
+                        android:text=""/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtNoOfPhotos"
+                        android:id="@+id/txtIntervalSelect"
+                        android:padding="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="21sp"
+                        android:layout_marginTop="10dp"
+                        android:text=""/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtNoOfPhotos"
+                        android:id="@+id/txtIntervalSelectCalculated"
+                        android:padding="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/black"
+                        android:textSize="21sp"
+                        android:layout_marginTop="10dp"
+                        android:text=""/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/txtIntervalSelect"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="Calculate"
+                        android:backgroundTint="#B37800"
+                        android:id="@+id/btnCalculate"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        />
+                </RelativeLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/menu_drawer"
+        android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

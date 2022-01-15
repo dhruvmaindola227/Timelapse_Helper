@@ -1,0 +1,688 @@
+[
+  {
+    "camera": "Polaroid iZone",
+    "sensorSize": "4.5 x 3.4 mm",
+    "resolution": "18.0 MP",
+    "pixelPitch": "0.9 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Kodak Astro Zoom AZ652",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.7 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Kodak Astro Zoom AZ651",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.7 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Kodak Astro Zoom AZ527",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.7 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX60V",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.4 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX60",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.4 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX400V",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.4 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX350",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.4 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX300",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.4 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2013
+  },
+  {
+    "camera": "Panasonic Lumix DC-FT7",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.4 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2018
+  },
+  {
+    "camera": "Panasonic Lumix DC-TZ96",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2019
+  },
+  {
+    "camera": "Panasonic Lumix DC-TZ95",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2019
+  },
+  {
+    "camera": "Panasonic Lumix DC-TZ91",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Panasonic Lumix DC-TZ90",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Nikon Coolpix A900",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Canon PowerShot SX740 HS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2018
+  },
+  {
+    "camera": "Canon PowerShot SX730 HS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Canon PowerShot SX720 HS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Canon PowerShot SX710 HS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Canon PowerShot SX70 HS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2018
+  },
+  {
+    "camera": "Canon PowerShot SX540 HS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.3 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Praktica Luxmedia Z250",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Praktica Luxmedia Z212",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Praktica Luxmedia WP240",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Nikon Coolpix L340",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Canon PowerShot SX620 HS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Canon Digital Ixus 285 HS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-W830",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-W810",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-W800",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-H300",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-H200",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2013
+  },
+  {
+    "camera": "Nikon Coolpix S3500",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2013
+  },
+  {
+    "camera": "Nikon Coolpix S2900",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Nikon Coolpix A300",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Nikon Coolpix A100",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Ricoh WG-6",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2019
+  },
+  {
+    "camera": "Ricoh G900",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2019
+  },
+  {
+    "camera": "Canon PowerShot SX432 IS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Canon PowerShot SX430 IS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Canon PowerShot SX420 IS",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Canon Digital Ixus 190",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Canon Digital Ixus 185",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Canon Digital Ixus 182",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Canon Digital Ixus 180",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Canon Digital Ixus 175",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Canon Digital Ixus 160",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Canon Digital Ixus 155",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Kodak Astro Zoom AZ422",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "20.0 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Canon PowerShot Zoom",
+    "sensorSize": "4.8 x 3.6 mm",
+    "resolution": "12.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2020
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-WX500",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-WX350",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-WX220",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-WX100",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2012
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX99",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2018
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX95",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2018
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX90V",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX90",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Sony Cyber-shot DSC-HX80",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.2 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Panasonic Lumix DMC-TZ81",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Panasonic Lumix DMC-TZ80",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Panasonic Lumix DMC-TZ61",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Panasonic Lumix DC-FZ83",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Panasonic Lumix DC-FZ82",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "18.1 MP",
+    "pixelPitch": "1.2 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Fujifilm FinePix XP90",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.4 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Fujifilm FinePix XP140",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.4 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2019
+  },
+  {
+    "camera": "Fujifilm FinePix XP130",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.4 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2018
+  },
+  {
+    "camera": "Fujifilm FinePix XP120 hell",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.4 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Fujifilm FinePix XP120",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.4 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Kodak Astro Zoom AZ525",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.4 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Kodak Astro Zoom AZ521",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.4 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2018
+  },
+  {
+    "camera": "Kodak WPZ2",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.4 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2019
+  },
+  {
+    "camera": "Samsung Galaxy Camera GC110",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.3 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2013
+  },
+  {
+    "camera": "Samsung Galaxy Camera GC100",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.3 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2012
+  },
+  {
+    "camera": "Samsung WB35F",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Kodak Friendly Zoom FZ53",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Kodak Friendly Zoom FZ43",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Kodak Friendly Zoom FZ102",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Kodak Friendly Zoom FZ101",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2018
+  },
+  {
+    "camera": "Fujifilm FinePix S9400W",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2014
+  },
+  {
+    "camera": "Kodak Sport Camera WP1",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Kodak Friendly Zoom FZ201",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Kodak Friendly Zoom FZ152",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Kodak Friendly Zoom FZ151",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Kodak Astro Zoom AZ401",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Kodak Astro Zoom AZ252",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.2 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2017
+  },
+  {
+    "camera": "Samsung ST76",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2012
+  },
+  {
+    "camera": "Panasonic Lumix DMC-LZ30",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2013
+  },
+  {
+    "camera": "Panasonic Lumix DMC-FZ72",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2013
+  },
+  {
+    "camera": "Panasonic Lumix DMC-FT30",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2015
+  },
+  {
+    "camera": "Nikon Coolpix A10",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2016
+  },
+  {
+    "camera": "Casio Exilim EX-ZR410",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2013
+  },
+  {
+    "camera": "Casio Exilim EX-ZR400",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2013
+  },
+  {
+    "camera": "Casio Exilim EX-ZR300",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2012
+  },
+  {
+    "camera": "Casio Exilim EX-ZR200",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2012
+  },
+  {
+    "camera": "Casio Exilim EX-ZR1000",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2012
+  },
+  {
+    "camera": "Casio Exilim EX-H50",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2012
+  },
+  {
+    "camera": "Casio Exilim EX-H30",
+    "sensorSize": "6.2 x 4.5 mm",
+    "resolution": "16.1 MP",
+    "pixelPitch": "1.3 µm",
+    "year": 2011
+  }
+]

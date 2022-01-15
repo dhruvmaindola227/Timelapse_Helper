@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:title="Home"
+        android:icon="@drawable/ic_dashboard_icon"
+        />
+    <item
+        android:id="@+id/intervaltable"
+        android:title="Interval Table"
+        android:icon="@drawable/ic_action_name"
+        />
+    <item
+        android:id="@+id/shutterSpeed"
+        android:title="Shutter Speed Calculator"
+        android:icon="@drawable/ic_action_name"
+        />
+    <item
+        android:id="@+id/aboutapp"
+        android:title="Tips and Suggestions"
+        android:icon="@drawable/ic_baseline_build_24"
+        />
+    <item
+        android:id="@+id/newaboutapp"
+        android:title="About App"
+        android:icon="@drawable/ic_baseline_question_answer_24"
+        />
+</menu>

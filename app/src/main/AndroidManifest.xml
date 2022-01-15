@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhruv.timelapsehelper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/myappicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/myappicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TimelapseHelper">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutApp" />
+        <activity android:name=".CameraListActivity" />
+        <activity android:name=".TipsAndSuggestionsActivity" />
+        <activity android:name=".ShutterSpeedActivity" />
+        <activity android:name=".IntervalTableActivity" />
+        <activity android:name=".MainActivity"/>
+    </application>
+
+</manifest>

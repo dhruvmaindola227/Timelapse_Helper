@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Timelapse Helper</string>
+    <string name="npf_rule"><u>NPF Rule</u></string>
+    <string name="_500_rule"><u>500 Rule</u></string>
+    <string name="p1">1.	Make sure your batteries are fully charged. Infact always keep a spare battery with you
+        just in case one fails mid–way. You can also get a battery pack in which you can have two batteries
+        together or 3–4 AA batteries that will make your camera last for longer duration.</string>
+    <string name="p2">2.	Always use a tripod when making a timelapse. It doesn’t matter how good your
+        camera stabilization and your lens stabilization is or even how stable your hands are , one just cannot
+        hold a camera perfectly still for long durations so always have a good sturdy tripod. Attatch some weight
+        to it if possible so that wind or water doesn’t shake it mid shoot.</string>
+    <string name="p3">3.	Check if your dslr/mirrorless camera has an inbuilt intervalometer/interval timelapse
+        maker or not. Some of the old dslrs especially of canon and sony did not have an inbuilt intervalometer.
+        So if you don’t have it in your camera , get an external intervalometer with which you can select the number
+        of photos to click , interval and duration. This will also trigger as a remote shutter and you wont need to
+        press the shutter button on your camera which reduces the risk of shake coming in your photos.</string>
+    <string name="p4">4.	The interval that you choose can make or break your timelapse. Choosing the correct interval
+        according the environment is crucial. We have provided a general guide to get an idea of what interval to choose ,
+        so you can take help from there and don’t forget to be creative on your own.
+        NOTE- If you are shooting at night or with a ND-filter and your shutter speed is longer than 1 second
+        then put the interval as the sum of the shutter speed and the interval you thought you want. For example ,
+        if your shutter speed is 10 seconds and you want the look of a 5 second interval , put the interval in your
+        settings as 10+5=15 seconds.
+    </string>
+    <string name="p5">5.	Use longer shutter speeds at night for a smoother effect except for when in night if
+        you’re shooting stars or milkyway galaxy. Use our shutter speed calculator to get the correct shutter speed.
+        In day , use ND filters to increase the shutter speed to get a smooth looking time lapse.</string>
+    <string name="p6">6.	Use the correct mode , choose manual mode if the lighting of the scene is not
+        changing much and other semi automatic modes like aperture priority and shutter priority when light
+        is slightly changing. NOTE- If you are using the inbuilt time lapse maker of your camera then keep your
+        aperture at the lowest f/stop to avoid digital exposure flickering which occurs because the aperture ring
+        opens to its widest opening before exposing.</string>
+    <string name="p7">7.	Always keep your focus on manual focus otherwise your camera will focus before
+        each shot and might lose focus and then your entire time lapse will be ruined. Also , if your
+        lens/camera has any kind of stabilization , turn it off because its made for handheld operations
+        and not with tripod.</string>
+    <string name="p8">8.	Always try to shoot raw photos. RAW photos have the data that jpeg format doesn’t
+        have and you can edit raw photos a lot more than jpeg which gives you greater control of the exposure
+        and the dynamic range of the frame you click for your time lapse.</string>
+    <string name="p9">9.	Use motion sliders and trackers which tilt or pan or slide your camera in between the
+        set interval which gives an incredibly beautiful motion to the time lapse which looks absolutely stunning.</string>
+    <string name="focal_length">Focal Length</string>
+    <string name="focal_length_desc">Focal length is the length that you are on which you can see in your screen or on the lens marking.</string>
+    <string name="equi_focal_length">Equivalent Focal Length</string>
+    <string name="equi_f_length_desc">Equivalent focal length is the focal length on your camera multiplied
+        by the crop factor of the camera you have. For example , if you are at 10mm focal length on an
+        APS-C camera , you are actually getting the field of view of 16mm of a full frame camera.</string>
+    <string name="aperture">Aperture</string>
+    <string name="aperture_desc">Aperture is the circular ring in your lens which opens or closes to
+        certain diameter which determines how
+        much light goes in to the sensor and how the depth of field will be. </string>
+    <string name="sensor">Sensor Type</string>
+    <string name="sensor_desc">Sensors type is just the size of the sensor your camera has.
+        A full frame sensor is of 35mm and is taken as the standard. Every other sensor has a
+        crop factor to it which means they’re some amount smaller than the standard full frame camera.
+        For example APS-C sensors are 1.6 times smaller and micro four-thirds are 2 times smaller.</string>
+    <string name="fps">FPS</string>
+    <string name="fps_desc">FPS stands for frames per second. When you see a video its actually just
+        multiple photos being played back at a very high rate.
+        Some commonly used fps are 24 , 25 , 30 , 60 and 120fps.</string>
+    <string name="clip_length">Clip Length</string>
+    <string name="clip_length_desc">Clip Length is the duration of the final time lapse you will have according to the settings you choose.</string>
+    <string name="interval">Interval</string>
+    <string name="interval_desc">Interval is the time between each photo that your camera will click.</string>
+    <string name="event_duration">Event Duration</string>
+    <string name="event_duration_desc">Event Duration is how long it will take to shoot the time lapse on the field.</string>
+
+    <string name="q2desc">Purpose is to calculate the various variables of timelapse
+        making that one has to know before making/shooting one on the field</string>
+    <string name="q3desc">I have made many timelapses previous lockdown and I\'ve waited for hours without knowing how long it would take
+        , so i got the idea from my own experience that one should always calculate these things beforehand.</string>
+    <string name="q4desc">There are 7 activities, 1 adapter class, 10 XML layouts(UI), 1 model class and some other xml files
+    to store string, theme of app, etc to make code clean and expandable</string>
+
+</resources>
